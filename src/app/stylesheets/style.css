@@ -1,0 +1,85 @@
+/* @font-face {
+    font-family: 'MyFont';
+    src: url('./my-font.woff2') format('woff2'),
+      url('./my-font.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+  } */
+
+html {
+    background-color: #2C666E;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.appBoard {
+    height: 80vh;
+    width: 70vw;
+    background: #07393C;
+    border-radius: 10px;
+}
+
+.appBoard_container {
+    display: flex;
+    height: 100%;
+}
+
+.appBoard_container-menu {
+    height: 100%;
+    width: 25%;
+    background: #F0EDEE;
+}
+
+.menu_list-title {
+    text-align: center;
+}
+
+.menu_list-categories {
+    list-style: none;
+}
+
+.menu_list-categories li {
+    padding: 5% 0;
+}
+
+.appBoard_container-content {
+    padding: 20px;
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    background-color: #07393C;
+    box-sizing: border-box;
+}
+
+.content_title {
+    font-size: 3rem;
+    color: white;
+}
+
+.list_item-container {
+    height: 80%;
+}
+
+.list_item {
+    margin: 3% 0;
+    height: 10%;
+    color:white;
+    border: rgba(256, 256, 256, 0.4) solid 1px;
+}
+
+.button_toDo {
+    position: static;
+    top: 100%;
+    right: 0
+}
